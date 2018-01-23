@@ -532,7 +532,7 @@
         if (opts.fx.indexOf(',') > 0) {
             opts.multiFx = true;
             opts.fxs = opts.fx.replace(/\s*/g, '').split(',');
-            // discard any bogus effect names
+            // discar any bogus effect names
             for (i = 0; i < opts.fxs.length; i++) {
                 var fx = opts.fxs[i];
                 tx = txs[fx];
@@ -1338,8 +1338,7 @@
             opts.cssBefore.left = next.cycleW;
             opts.animIn.width = next.cycleW;
         });
-        opts.cssBefore.top = 0;
-        opts.cssBefore.width = 0;
+        opts.cssBefore.top = 0;        opts.cssBefore.width = 0;
         opts.animIn.left = 0;
         opts.animOut.width = 0;
     };
