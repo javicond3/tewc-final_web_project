@@ -1,0 +1,184 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+    background-color: #254e20;
+    color: floralwhite;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.navbar-inverse {
+    background-color: #254e20;
+    border-color: #254e20;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #d8d9cd;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color:white;
+}
+
+.navbar-inverse .navbar-toggle:hover{
+    background-color: #395e39;
+}
+
+
+a{
+    color:#d8d9cd;
+}
+
+a:hover{
+    color:white;
+}
+
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Navbar */
+.navbar-inverse .navbar-brand {
+    color: #cdda1f;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 70%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Panel noticias*/
+.panel-default {
+    background-color: #395e39;
+}
+
+.cuadro {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #395e39;
+
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+
+}
+
+.panel-default > .panel-heading, .btn-default {
+    background-color: #d8d9cd;
+    color: black;
+}
+
+/* Estilos letra */
+small {
+    color: white;
+}
+
+.txt2 {
+    color: white;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+/* Html Noticias */
+.noticia {
+    color: white;
+}
+
+.noticia p {
+    color: #d8d9cd;
+}
+
+/* Tablas */
+
+.table-head {
+    background-color: #d8d9cd;
+    color: black;
+}
+
+.table-body {
+    background-color: #395e39;
+}
+
+/* Pagination */
+.pagination>.active>a, .pagination>.active>a:focus,
+.pagination>.active>a:hover, .pagination>.active>span,
+.pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #395e39;
+    border-color: #395e39;
+}
+
+/* Formulario */
+
+.btn-formulario {
+    color: black;
+}
+
+.slideshow {
+    height: 100px;
+    width: 100px;
+    margin: auto
+}
+
+.slideshow img {
+    padding: 15px;
+}
+
+.lesionado{
+    color: red;
+}
+
